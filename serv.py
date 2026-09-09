@@ -3,7 +3,7 @@ import os
 import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 PORT = 8765
 
 SAVE_FILE = os.path.join(
